@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color:crimson;
+}
+
+@keyframes dell {
+      
+from {box-shadow: 1px 1px 30px  mediumspringgreen;}
+to{box-shadow: 1px 1px 30px rgb(199, 111, 53);}
+}
+
+canvas
+{
+animation-name: dell;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
